@@ -57,7 +57,7 @@
 //   option && myChart.setOption(option);
 // })
 import Highcharts from 'highcharts'
-import {Chart as highcharts} from 'highcharts-vue'
+import {Chart as highchart} from 'highcharts-vue'
 // import type { Chart } from 'highcharts-vue'
 import { ref } from 'vue';
 import exporting from 'highcharts/modules/exporting'
@@ -666,13 +666,13 @@ console.log(inputTrim.match(direaction));
 </script>
 
 <template>
-  <highcharts :options="chartOptions" class="highcharts-container small-chart"></highcharts>
+  <highchart :options="chartOptions" class="highcharts-container small-chart"></highchart>
   <div id="capture">
     <div class="hidden">隐藏部分</div>
-    <highcharts :options="chartOptions1" class="highcharts-container large-chart"></highcharts>
+    <highchart :options="chartOptions1" class="highcharts-container large-chart"></highchart>
   </div>
-  <highcharts :options="chartOptions2" class="highcharts-container legend-chart"></highcharts>
-  <highcharts :options="chartOptions3" class="highcharts-container large-chart" ref="chart"></highcharts>
+  <highchart :options="chartOptions2" class="highcharts-container legend-chart"></highchart>
+  <highchart :options="chartOptions3" class="highcharts-container large-chart" ref="chart"></highchart>
   <svg-icon iconName="earth" iconSize="25"></svg-icon>
   <button @click="getCapture">下载截图</button>
   <!-- <highcharts :options="chartOptions4" class="highcharts-container large-chart" ref="chart"></highcharts> -->
