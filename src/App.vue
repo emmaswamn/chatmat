@@ -56,9 +56,11 @@
   
 //   option && myChart.setOption(option);
 // })
+import Highcharts from 'highcharts'
 import {Chart as highcharts} from 'highcharts-vue'
 // import type { Chart } from 'highcharts-vue'
 import { ref } from 'vue';
+import exporting from 'highcharts/modules/exporting'
 // import { updateProject } from './utils/fetchData'
 // import { addProject } from './utils/fetchData'
 // import { deleteProject } from './utils/fetchData'
@@ -70,6 +72,7 @@ import useDomDownload from './hooks/useDomDownload';
 
 const { downloadDom } = useDomDownload()
 
+exporting(Highcharts)
 // getCityName(87.76279844505257, 46.2409102796008)
 
 // addProject()
@@ -146,7 +149,9 @@ const chartOptions = {
       data: [43934, 52503, 57177, 69658, 97031, 119931, 137133, 154175, 57177, 69658, 97031, 119931]
     }
   ],
-      
+  exporting: {
+    enable: true,
+  }   
 }
 // colors:
 // 太阳和气象，每月统计
