@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 37</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gis地图/查看项目弹窗" transform="translate(-1322.000000, -230.000000)">
+            <g id="编组-42" transform="translate(1087.000000, 64.000000)">
+                <g id="编组-41" transform="translate(221.000000, 90.000000)">
+                    <g id="编组-37" transform="translate(14.000000, 76.000000)">
+                        <rect id="矩形备份-6" x="0" y="0" width="16" height="16"></rect>
+                        <g id="编组-30" transform="translate(3.000000, 3.000000)" stroke="#ACACAC" stroke-linejoin="round">
+                            <path d="M1,0 L7,0 L7,0 L10,3.09276487 L10,9 C10,9.55228475 9.55228475,10 9,10 L1,10 C0.44771525,10 6.76353751e-17,9.55228475 0,9 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z" id="矩形"></path>
+                            <rect id="矩形" x="3" y="7" width="4" height="3"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

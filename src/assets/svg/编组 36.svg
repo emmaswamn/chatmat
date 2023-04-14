@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 36</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gis地图/查看项目弹窗" transform="translate(-1322.000000, -262.000000)">
+            <g id="编组-42" transform="translate(1087.000000, 64.000000)">
+                <g id="编组-41" transform="translate(221.000000, 90.000000)">
+                    <g id="编组-36" transform="translate(14.000000, 108.000000)">
+                        <rect id="矩形备份-8" x="0" y="0" width="16" height="16"></rect>
+                        <g id="编组-32" transform="translate(3.000000, 3.000000)" stroke="#ACACAC" stroke-linecap="round">
+                            <path d="M10,5.02077449 L10,5.02077449 L10,9 C10,9.55228475 9.55228475,10 9,10 L1,10 C0.44771525,10 0,9.55228475 0,9 L0,1 C0,0.44771525 0.44771525,0 1,0 C2.33333333,0 3.66666667,0 5,0" id="路径" stroke-linejoin="round"></path>
+                            <polyline id="路径-5" stroke-linejoin="round" points="7.01181116 0 10 0 10 3"></polyline>
+                            <line x1="10" y1="0" x2="5" y2="5" id="路径-6"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
